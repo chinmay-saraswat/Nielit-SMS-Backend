@@ -1,0 +1,37 @@
+cluster0.hrogdi9.mongodb.net is a collection that contaion the nielit_database
+
+
+
+{
+  "name":"Super Admin",
+  "email":"admin@gmail.com",
+  "password":"123456"
+}
+
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MWFiODc2ODE2ODMxMGE2MDM0ZDM2NCIsImlhdCI6MTc2MzM1OTk2OCwiZXhwIjoxNzYzOTY0NzY4fQ.lRbfKL7TPJ-38SMKj7RxwHT9Rc3kfEh-JeqJH32QizE
+
+{
+  "email": "admin@gmail.com",
+  "password": "123456"
+}
+
+{
+    "success": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MWFiZDVjODE2ODMxMGE2MDM0ZDM2OSIsImlhdCI6MTc2MzM2MDM5NywiZXhwIjoxNzYzOTY1MTk3fQ.j0BY7F9Iw6TwuZQyUR19mU7hvvCNercNNxtih-8OWrg"
+}
+
+
+
+
+
+{
+  "name": "Chinmay",
+  "email": "chinma@gmail.com",
+  "password": "student123",
+  "mobile": "9876543212",
+  "adhar": "123412341234",
+  "caste": "General",
+  "course": "CSE",
+  "gender": "Male"
+}
