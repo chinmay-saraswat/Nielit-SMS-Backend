@@ -1,6 +1,9 @@
 import Admin from "../models/Admin.js";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
+import Student from "../models/Student.js";
+import Course from "../models/Course.js";
+
 
 // REGISTER ADMIN
 export const registerAdmin = async (req, res) => {
