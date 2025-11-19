@@ -12,6 +12,8 @@ router.post("/login", validate(studentLoginSchema), loginStudent);
 // Admin-only routes
 router.get("/", adminAuth, getStudents); // Get students with filter & sort
 router.put("/:id", adminAuth, updateStudent); // Update student by ID
+router.get("/:id", adminAuth, getStudentById);
+
 router.get("/count",adminAuth,getStudentCount);
 router.get("/me", studentAuth, getMyProfile);
 export default router;

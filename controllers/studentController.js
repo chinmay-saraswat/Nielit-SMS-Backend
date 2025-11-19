@@ -153,3 +153,18 @@ export const getMyProfile = async (req, res) => {
     res.status(500).json({ message: "Error fetching student profile" });
   }
 };
+
+// GET SINGLE STUDENT BY ID
+export const getStudentById = async (req, res) => {
+  try {
+    const student = await Student.findById(req.params.id);
+
+    if (!student) {
+      return res.status(404).json({ success: false, message: "Student not found" });
+    }
+
+    res.json({ success: true, student });
+  } catch (err) {
+    res.status(500).json({ message: "Server Error" });
+  }
+};
