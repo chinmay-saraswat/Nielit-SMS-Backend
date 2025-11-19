@@ -68,13 +68,13 @@ export const getDashboardStats = async (req, res) => {
       totalEnrollments,
       popularCourse: popularCourse
         ? {
-            name: popularCourse.name,
+            name: popularCourse.courseName, // FIX HERE
             enrollCount: popularCourse.enrolledStudents.length,
           }
         : null,
     });
   } catch (err) {
+    console.log(err); // add this to see actual error
     res.status(500).json({ message: "Error fetching dashboard stats" });
   }
 };
-
